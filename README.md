@@ -6,6 +6,10 @@
 
 ## START
 
+### 建立虛擬環境
+```zsh
+python -m venv tutorial-env
+```
 ### 進入 venv 虛擬環境
 ```zsh
 source myenv/bin/activate
@@ -15,3 +19,7 @@ source myenv/bin/activate
 deactivate
 ```
 
+## 安裝 python 套件
+```zsh
+pip3 install torch numpy matplotlib pillow torchvision torchsummary torchaudio
+```
