@@ -33,6 +33,7 @@ pip3 install torch numpy matplotlib pillow torchvision torchsummary torchaudio
 - optim.Adam
 
 發現測試集很多都判斷錯誤
+
 ![Alt text](fig/firstTrain.png)
 ![Alt text](fig/firstLoss.png)
 
@@ -43,6 +44,7 @@ pip3 install torch numpy matplotlib pillow torchvision torchsummary torchaudio
 - optim.Adam
 
 發現測試集還是有錯誤
+
 ![Alt text](fig/secondTrain.png)
 ![Alt text](fig/secondLoss.png)
 
@@ -53,5 +55,6 @@ pip3 install torch numpy matplotlib pillow torchvision torchsummary torchaudio
 - optim.Adam
 
 錯誤有減少了
+
 ![Alt text](fig/thirdTrain.png)
 ![Alt text](fig/thirdLoss.png)
