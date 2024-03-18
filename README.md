@@ -23,3 +23,29 @@ deactivate
 ```zsh
 pip3 install torch numpy matplotlib pillow torchvision torchsummary torchaudio
 ```
+
+
+## 第一次訓練
+- batch_size = 32 (Batch Size)
+- lr = 1e-4 (Learning Rate)
+- epochs = 10 (epoch 次數)
+- optim.Adam
+
+![Alt text](fig/firstTrain.png)
+![Alt text](fig/firstLoss.png)
+
+## 第二次訓練
+- batch_size = 32 (Batch Size)
+- lr = 1e-5 (Learning Rate)
+- epochs = 50 (epoch 次數)
+- optim.Adam
+
+![Alt text](fig/secondTrain.png)
+
+## 第三次訓練
+- batch_size = 32 (Batch Size)
+- lr = 1e-4 (Learning Rate)
+- epochs = 50 (epoch 次數)
+- optim.SGD
+
+![Alt text](fig/thirdTrain.png)
