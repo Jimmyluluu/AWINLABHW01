@@ -1,8 +1,9 @@
 # Lab HomeWork
 ## 環境版本
-- Python 3.9.6
-- MacOS
-- 
+- Python 3.8.10
+- ubunbu 20.04
+- R5-5600x
+- RTX3070Ti-8G
 
 ## START
 
@@ -31,21 +32,26 @@ pip3 install torch numpy matplotlib pillow torchvision torchsummary torchaudio
 - epochs = 10 (epoch 次數)
 - optim.Adam
 
+發現測試集很多都判斷錯誤
 ![Alt text](fig/firstTrain.png)
 ![Alt text](fig/firstLoss.png)
 
 ## 第二次訓練
-- batch_size = 32 (Batch Size)
+- batch_size = 16 (Batch Size)
 - lr = 1e-5 (Learning Rate)
-- epochs = 50 (epoch 次數)
+- epochs = 20 (epoch 次數)
 - optim.Adam
 
+發現測試集還是有錯誤
 ![Alt text](fig/secondTrain.png)
+![Alt text](fig/secondLoss.png)
 
 ## 第三次訓練
-- batch_size = 32 (Batch Size)
-- lr = 1e-4 (Learning Rate)
-- epochs = 50 (epoch 次數)
-- optim.SGD
+- batch_size = 16 (Batch Size)
+- lr = 1e-5 (Learning Rate)
+- epochs = 30 (epoch 次數)
+- optim.Adam
 
+錯誤有減少了
 ![Alt text](fig/thirdTrain.png)
+![Alt text](fig/thirdLoss.png)
