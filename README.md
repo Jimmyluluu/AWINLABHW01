@@ -43,5 +43,5 @@ deactivate
 
 ## 安裝 python 套件
 ```zsh
-pip3 install torch numpy matplotlib pillow torchvision torchsummary torchaudio openpyxl pandas
+pip3 install numpy matplotlib
 ```
