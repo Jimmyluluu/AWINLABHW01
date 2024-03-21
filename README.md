@@ -2,7 +2,10 @@
 
 ## 環境版本
 - Python 3.8.10
-- ubunbu 20.04
+- Ubunbu 20.04
+- MacOS
+
+## 訓練使用硬體
 - R5-5600x
 - RTX3070Ti-8G
 
