@@ -13,7 +13,7 @@
 
 ### 建立虛擬環境
 ```zsh
-python -m venv hw01env
+python3 -m venv hw01env
 ```
 ### 進入 venv 虛擬環境
 ```zsh
@@ -33,7 +33,7 @@ pip3 install torch numpy matplotlib pillow torchvision torchsummary torchaudio o
 
 ### 建立虛擬環境
 ```zsh
-python -m venv hw02env
+python3 -m venv hw02env
 ```
 ### 進入 venv 虛擬環境
 ```zsh
